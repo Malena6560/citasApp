@@ -22,12 +22,6 @@ import PresentationInformation from "./Sections/PresentationInformation.vue";
 //images
 import vueMkHeader from "@/assets/img/fondoPrincipal.jpg";
 // import wavesWhite from "@/assets/img/waves-white.svg";
-// import logoBootstrap from "@/assets/img/logos/bootstrap5.jpg";
-// import logoTailwind from "@/assets/img/logos/icon-tailwind.jpg";
-// import logoVue from "@/assets/img/logos/vue.jpg";
-// import logoAngular from "@/assets/img/logos/angular.jpg";
-// import logoReact from "@/assets/img/logos/react.jpg";
-// import logoSketch from "@/assets/img/logos/sketch.jpg";
 
 //hooks
 const body = document.getElementsByTagName("body")[0];
@@ -106,11 +100,6 @@ onUnmounted(() => {
             title="Plugins"
             description="Get inspiration and have an overview about the plugins that we
                 used to create the Material Kit."
-            :action="{
-              route:
-                'https://www.creative-tim.com/learning-lab/vue/input/material-kit/',
-              label: { text: 'Read more' }
-            }"
           />
         </div>
         <div class="col-lg-4">
@@ -120,11 +109,6 @@ onUnmounted(() => {
             title="Utility Classes"
             description="Material Kit is giving you a lot of pre-made elements. For those
                 who want flexibility, we included many utility classes."
-            :action="{
-              route:
-                'https://www.creative-tim.com/learning-lab/vue/utilities/material-kit/',
-              label: { text: 'Read more' }
-            }"
           />
         </div>
       </div>
