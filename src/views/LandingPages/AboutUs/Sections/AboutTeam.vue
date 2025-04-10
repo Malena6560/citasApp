@@ -29,7 +29,7 @@ import marquez from "@/assets/img/ivana-square.jpg";
             class="mt-4"
             :image="emma"
             :profile="{ name: 'Emma Roberts', link: 'javascript:;' }"
-            :position="{ label: 'UI Designer', color: 'success' }"
+            :position="{ label: 'UI Designer', color: 'primary' }"
             description="Artist is a term applied to a person who engages in an
                     activity deemed to be an art."
           />
@@ -39,7 +39,7 @@ import marquez from "@/assets/img/ivana-square.jpg";
             class="mt-lg-4 mt-5"
             :image="william"
             :profile="{ name: 'William Pearce', link: 'javascript:;' }"
-            :position="{ label: 'Boss', color: 'success' }"
+            :position="{ label: 'Boss', color: 'primary' }"
             description="Artist is a term applied to a person who engages in an
                     activity deemed to be an art."
           />
@@ -51,7 +51,7 @@ import marquez from "@/assets/img/ivana-square.jpg";
             class="mt-4 z-index-2"
             :image="ivana"
             :profile="{ name: 'Ivana Flow', link: 'javascript:;' }"
-            :position="{ label: 'Athlete', color: 'success' }"
+            :position="{ label: 'Athlete', color: 'primary' }"
             description="Artist is a term applied to a person who engages in an
                     activity deemed to be an art."
           />
@@ -61,7 +61,7 @@ import marquez from "@/assets/img/ivana-square.jpg";
             class="mt-lg-4 mt-5 z-index-2"
             :image="marquez"
             :profile="{ name: 'Marquez Garcia', link: 'javascript:;' }"
-            :position="{ label: 'JS Developer', color: 'success' }"
+            :position="{ label: 'JS Developer', color: 'primary' }"
             description="Artist is a term applied to a person who engages in an
                     activity deemed to be an art."
           />

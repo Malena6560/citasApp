@@ -10,7 +10,7 @@ import MaterialButton from "@/components/MaterialButton.vue";
             <MaterialButton variant="gradient" color="secondary" class="w-auto me-2">Primary</MaterialButton>
             <MaterialButton variant="gradient" color="primary" class="w-auto me-2">Secondary</MaterialButton>
             <MaterialButton variant="gradient" color="info" class="w-auto me-2">Info</MaterialButton>
-            <MaterialButton variant="gradient" color="success" class="w-auto me-2">Success</MaterialButton>
+            <MaterialButton variant="gradient" color="primary" class="w-auto me-2">primary</MaterialButton>
             <MaterialButton variant="gradient" color="warning" class="w-auto me-2">Warning</MaterialButton>
             <MaterialButton variant="gradient" color="danger" class="w-auto me-2">Danger</MaterialButton>
             <MaterialButton variant="gradient" color="light" class="w-auto me-2">Light</MaterialButton>
@@ -53,9 +53,9 @@ import MaterialButton from "@/components/MaterialButton.vue";
           
           <MaterialButton
             variant="contained"
-            color="success"
+            color="primary"
             class="w-auto me-2">
-            Success
+            primary
           </MaterialButton>
           
           <MaterialButton
@@ -98,7 +98,7 @@ import MaterialButton from "@/components/MaterialButton.vue";
         <MaterialButton variant="outline" color="secondary" class="w-auto me-2">Primary</MaterialButton>
         <MaterialButton variant="outline" color="primary" class="w-auto me-2">Secondary</MaterialButton>
         <MaterialButton variant="outline" color="info" class="w-auto me-2">Info</MaterialButton>
-        <MaterialButton variant="outline" color="success" class="w-auto me-2">Success</MaterialButton>
+        <MaterialButton variant="outline" color="primary" class="w-auto me-2">primary</MaterialButton>
         <MaterialButton variant="outline" color="warning" class="w-auto me-2">Warning</MaterialButton>
         <MaterialButton variant="outline" color="danger" class="w-auto me-2">Danger</MaterialButton>
         <MaterialButton variant="outline" color="light" class="w-auto me-2">Light</MaterialButton>
@@ -119,9 +119,9 @@ import MaterialButton from "@/components/MaterialButton.vue";
     <div class="container">
       <div class="row justify-space-between text-center py-2">
         <div class="col-12 mx-auto">
-            <MaterialButton variant="gradient" color="success" size="sm" class="me-2">Small</MaterialButton>
-            <MaterialButton variant="gradient" color="success" class="w-auto me-2">Default</MaterialButton>
-            <MaterialButton variant="gradient" color="success" size="lg">Large</MaterialButton>
+            <MaterialButton variant="gradient" color="primary" size="sm" class="me-2">Small</MaterialButton>
+            <MaterialButton variant="gradient" color="primary" class="w-auto me-2">Default</MaterialButton>
+            <MaterialButton variant="gradient" color="primary" size="lg">Large</MaterialButton>
         </div>
       </div>
     </div>
@@ -175,21 +175,21 @@ import MaterialButton from "@/components/MaterialButton.vue";
     <div class="container">
       <div class="row justify-space-between text-center py-2">
         <div class="col-12 mx-auto">
-            <MaterialButton variant="gradient" color="success" size="sm" class="btn-icon">
+            <MaterialButton variant="gradient" color="primary" size="sm" class="btn-icon">
             <div class="d-flex align-items-center">
                 Small
               <i class="material-icons ms-2" aria-hidden="true">favorite</i>
             </div>
             </MaterialButton>
 
-            <MaterialButton variant="gradient" color="success" class="btn-icon mx-2">
+            <MaterialButton variant="gradient" color="primary" class="btn-icon mx-2">
             <div class="d-flex align-items-center">
                 Default
               <i class="material-icons ms-2" aria-hidden="true">favorite</i>
             </div>
             </MaterialButton>
 
-            <MaterialButton variant="gradient" color="success" size="lg" class="btn-icon">
+            <MaterialButton variant="gradient" color="primary" size="lg" class="btn-icon">
             <div class="d-flex align-items-center">
                 Large
               <i class="material-icons ms-2" aria-hidden="true">favorite</i>

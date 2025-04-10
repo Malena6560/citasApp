@@ -15,8 +15,8 @@ import MaterialBadge from "@/components/MaterialBadge.vue";
             Secondary
           </MaterialBadge>
 
-          <MaterialBadge variant="gradient" color="success">
-            Success
+          <MaterialBadge variant="gradient" color="primary">
+            primary
           </MaterialBadge>
 
           <MaterialBadge variant="gradient" color="danger" class="mx-1">

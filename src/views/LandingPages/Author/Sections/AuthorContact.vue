@@ -153,7 +153,7 @@ onMounted(() => {
                       <div class="col-md-6 text-end ms-auto">
                         <MaterialButton
                           variant="gradient"
-                          color="success"
+                          color="primary"
                           type="submit"
                           class="mb-0"
                           >Send Message</MaterialButton

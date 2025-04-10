@@ -12,25 +12,25 @@ import MaterialButton from "@/components/MaterialButton.vue";
             role="group"
             aria-label="Basic example"
           >
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Left
             </MaterialButton>
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Middle
             </MaterialButton>
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Right
             </MaterialButton>
           </div>
           <br />
           <div class="btn-group" role="group" aria-label="Basic example">
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Left
             </MaterialButton>
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Middle
             </MaterialButton>
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Right
             </MaterialButton>
           </div>
@@ -40,13 +40,13 @@ import MaterialButton from "@/components/MaterialButton.vue";
             role="group"
             aria-label="Basic example"
           >
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Left
             </MaterialButton>
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Middle
             </MaterialButton>
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Right
             </MaterialButton>
           </div>

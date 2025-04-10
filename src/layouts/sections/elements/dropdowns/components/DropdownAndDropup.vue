@@ -13,7 +13,7 @@ let showDropup = ref(false);
         <div class="dropdown">
           <MaterialButton
             variant="gradient"
-            color="success"
+            color="primary"
             class="dropdown-toggle"
             :class="{ show: showDropdown }"
             @focusout="showDropdown = false"
@@ -52,7 +52,7 @@ let showDropup = ref(false);
         <div class="btn-group dropup mt-7">
           <MaterialButton
             variant="gradient"
-            color="success"
+            color="primary"
             class="dropdown-toggle"
             :class="{ show: showDropup }"
             data-bs-toggle="dropdown"

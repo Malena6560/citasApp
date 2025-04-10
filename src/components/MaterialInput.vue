@@ -32,7 +32,7 @@ defineProps({
     type: Boolean,
     default: false,
   },
-  success: {
+  primary: {
     type: Boolean,
     default: false,
   },
@@ -53,14 +53,14 @@ defineProps({
     default: "",
   },
 });
-function getClasses(size, success, error) {
+function getClasses(size, primary, error) {
   let sizeValue, isValidValue;
 
   sizeValue = size && `form-control-${size}`;
 
   if (error) {
     isValidValue = "is-invalid";
-  } else if (success) {
+  } else if (primary) {
     isValidValue = "is-valid";
   } else {
     isValidValue = "";
@@ -81,7 +81,7 @@ function getClasses(size, success, error) {
       :id="id"
       :type="type"
       class="form-control"
-      :class="[getClasses(size, success, error), inputClass]"
+      :class="[getClasses(size, primary, error), inputClass]"
       :value="value"
       :placeholder="placeholder"
       :isRequired="isRequired"

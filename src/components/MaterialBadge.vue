@@ -13,7 +13,7 @@ defineProps({
         "primary",
         "secondary",
         "info",
-        "success",
+        "primary",
         "warning",
         "error",
         "danger",
@@ -22,7 +22,7 @@ defineProps({
         "white"
       ].includes(color);
     },
-    default: "success"
+    default: "primary"
   },
   variant: {
     type: String,

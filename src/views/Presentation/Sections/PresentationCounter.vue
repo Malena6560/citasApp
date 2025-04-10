@@ -10,7 +10,7 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
           <div class="row">
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
-                color="success"
+                color="primary"
                 title="Coded Elements"
                 description="From buttons, to inputs, navbars, alerts or cards, you are
                   covered"
@@ -22,7 +22,7 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             </div>
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
-                color="success"
+                color="primary"
                 title="Design Blocks"
                 description="Mix the sections, change the colors and unleash your
                   creativity"
@@ -34,7 +34,7 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             </div>
             <div class="col-md-4">
               <DefaultCounterCard
-                color="success"
+                color="primary"
                 title="Pages"
                 description="Save 3-4 weeks of work when you use our pre-made pages for
                   your website"

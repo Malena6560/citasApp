@@ -521,13 +521,13 @@ function copyCode(el) {
   range.selectNodeContents(textToCopy);
   selection.removeAllRanges();
   selection.addRange(range);
-  const successful = document.execCommand("copy");
+  const primaryful = document.execCommand("copy");
   window.getSelection().removeAllRanges();
   if (!el.parentElement.querySelector(".alert")) {
     var alert = document.createElement("div");
     alert.classList.add(
       "alert",
-      "alert-success",
+      "alert-primary",
       "position-absolute",
       "top-0",
       "border-0",
@@ -546,7 +546,7 @@ function copyCode(el) {
       alert.style.transform = "translate3d(0px, 20px, 0px)";
       alert.style.setProperty("opacity", "1", "important");
     }, 100);
-    alert.innerHTML = "Code successfully copied!";
+    alert.innerHTML = "Code primaryfully copied!";
     el.parentElement.appendChild(alert);
     setTimeout(function () {
       alert.style.transform = "translate3d(0px, 0px, 0px)";

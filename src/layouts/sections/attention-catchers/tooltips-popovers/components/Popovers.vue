@@ -21,7 +21,7 @@ onMounted(() => {
       <div>
         <MaterialButton
           variant="gradient"
-          color="success"
+          color="primary"
           data-bs-container="body"
           data-bs-toggle="popover"
           data-bs-placement="top"
@@ -33,7 +33,7 @@ onMounted(() => {
         <MaterialButton
           class="mx-2"
           variant="gradient"
-          color="success"
+          color="primary"
           data-bs-container="body"
           data-bs-toggle="popover"
           data-bs-placement="right"
@@ -44,7 +44,7 @@ onMounted(() => {
 
         <MaterialButton
           variant="gradient"
-          color="success"
+          color="primary"
           data-bs-container="body"
           data-bs-toggle="popover"
           data-bs-placement="bottom"
@@ -56,7 +56,7 @@ onMounted(() => {
         <MaterialButton
           class="ms-2"
           variant="gradient"
-          color="success"
+          color="primary"
           data-bs-container="body"
           data-bs-toggle="popover"
           data-bs-placement="left"

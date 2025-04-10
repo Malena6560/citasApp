@@ -15,8 +15,8 @@ import MaterialBadge from "@/components/MaterialBadge.vue";
             Secondary
           </MaterialBadge>
 
-          <MaterialBadge variant="gradient" color="success">
-            Success
+          <MaterialBadge variant="gradient" color="primary">
+            primary
           </MaterialBadge>
 
           <MaterialBadge variant="gradient" color="danger" class="mx-1">
@@ -60,7 +60,7 @@ import MaterialBadge from "@/components/MaterialBadge.vue";
             Secondary
           </MaterialBadge>
 
-          <MaterialBadge color="success"> Success </MaterialBadge>
+          <MaterialBadge color="primary"> primary </MaterialBadge>
 
           <MaterialBadge color="danger" class="mx-1"> Danger </MaterialBadge>
 
@@ -93,7 +93,7 @@ import MaterialBadge from "@/components/MaterialBadge.vue";
             Secondary
           </MaterialBadge>
 
-          <MaterialBadge color="success" rounded> Success </MaterialBadge>
+          <MaterialBadge color="primary" rounded> primary </MaterialBadge>
 
           <MaterialBadge color="danger" rounded class="mx-1"> Danger </MaterialBadge>
 

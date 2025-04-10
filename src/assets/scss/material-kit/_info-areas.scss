@@ -160,12 +160,12 @@ svg.text-danger {
     fill: $danger-gradient-state;
   }
 }
-svg.text-success {
+svg.text-primary {
   .color-foreground {
-    fill: $success-gradient;
+    fill: $primary-gradient;
   }
   .color-background {
-    fill: $success-gradient-state;
+    fill: $primary-gradient-state;
   }
 }
 svg.text-dark {

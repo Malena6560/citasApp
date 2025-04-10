@@ -13,7 +13,7 @@ defineProps({
         "primary",
         "secondary",
         "info",
-        "success",
+        "primary",
         "warning",
         "danger",
         "error",

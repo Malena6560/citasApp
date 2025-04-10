@@ -12,7 +12,7 @@ import AboutUsOption from "@/views/LandingPages/components/AboutUsOption.vue";
             others, lose trust for those others. We get back stabbed by friends.
             It becomes harder for us to give others a hand.
           </p>
-          <a href="javascript:;" class="text-success icon-move-right"
+          <a href="javascript:;" class="text-primary icon-move-right"
             >More about us
             <i class="fas fa-arrow-right text-sm ms-1"></i>
           </a>

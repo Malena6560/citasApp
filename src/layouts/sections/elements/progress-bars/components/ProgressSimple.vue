@@ -9,7 +9,7 @@ import MaterialProgress from "@/components/MaterialProgress.vue";
         <div class="col-lg-6 mx-auto">
           <MaterialProgress class="mb-3" color="primary" :value="50" />
           <MaterialProgress class="mb-3" color="secondary" :value="50" />
-          <MaterialProgress class="mb-3" color="success" :value="50" />
+          <MaterialProgress class="mb-3" color="primary" :value="50" />
           <MaterialProgress class="mb-3" color="info" :value="50" />
           <MaterialProgress class="mb-3" color="warning" :value="50" />
           <MaterialProgress class="mb-3" color="danger" :value="50" />

@@ -12,7 +12,7 @@ defineProps({
         "primary",
         "secondary",
         "info",
-        "success",
+        "primary",
         "warning",
         "danger",
         "error",
@@ -20,7 +20,7 @@ defineProps({
         "dark",
       ].includes(color);
     },
-    default: "success",
+    default: "primary",
   },
   value: {
     type: Number,

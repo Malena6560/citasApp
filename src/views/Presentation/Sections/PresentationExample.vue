@@ -52,7 +52,7 @@ export default {
       <div class="row">
         <div class="row justify-content-center text-center my-sm-5">
           <div class="col-lg-6">
-            <MaterialBadge color="success" class="mb-3"
+            <MaterialBadge color="primary" class="mb-3"
               >Infinite combinations</MaterialBadge
             >
 

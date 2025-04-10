@@ -9,17 +9,7 @@ import downArrow from "@/assets/img/down-arrow.svg";
 import DownArrWhite from "@/assets/img/down-arrow-white.svg";
 
 const props = defineProps({
-  action: {
-    type: Object,
-    route: String,
-    color: String,
-    label: String,
-    default: () => ({
-      route: "https://www.creative-tim.com/product/vue-material-kit",
-      color: "bg-gradient-success",
-      label: "Free Download"
-    })
-  },
+
   transparent: {
     type: Boolean,
     default: false
@@ -751,7 +741,7 @@ watch(
             </div>
           </li>
         </ul>
-        <ul class="navbar-nav d-lg-block d-none">
+        <!-- <ul class="navbar-nav d-lg-block d-none">
           <li class="nav-item">
             <a
               :href="action.route"
@@ -761,7 +751,7 @@ watch(
               >{{ action.label }}</a
             >
           </li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </nav>

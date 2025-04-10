@@ -11,7 +11,7 @@ import imgSigninCover from "@/assets/img/signin-cover.png";
       <div class="row">
         <div class="row text-center my-sm-5 mt-5">
           <div class="col-lg-6 mx-auto">
-            <MaterialBadge color="success" class="mb-3"
+            <MaterialBadge color="primary" class="mb-3"
               >Boost creativity</MaterialBadge
             >
             <h2 class="">With our coded pages</h2>
