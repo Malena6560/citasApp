@@ -22,7 +22,7 @@ defineProps({
         "white"
       ].includes(color);
     },
-    default: "success"
+    default: "primary"
   },
   variant: {
     type: String,

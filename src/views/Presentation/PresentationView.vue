@@ -5,7 +5,7 @@ import { onMounted, onUnmounted } from "vue";
 import NavbarDefault from "../..//examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 //import Header from "../../examples/Header.vue";
-//import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
+import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
 
 //Vue Material Kit 2 components
 //import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
@@ -17,10 +17,10 @@ import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 //import data from "./Sections/Data/designBlocksData";
 //import BuiltByDevelopers from "./Components/BuiltByDevelopers.vue";
 //import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
-//import PresentationInformation from "./Sections/PresentationInformation.vue";
+import PresentationInformation from "./Sections/PresentationInformation.vue";
 
 //images
-// import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
+import vueFPHeader from "@/assets/img/FondoPrincipal.jpg";
 // import wavesWhite from "@/assets/img/waves-white.svg";
 // import logoBootstrap from "@/assets/img/logos/bootstrap5.jpg";
 // import logoTailwind from "@/assets/img/logos/icon-tailwind.jpg";
@@ -52,7 +52,7 @@ onUnmounted(() => {
   <Header>
     <div
       class="page-header min-vh-75"
-      :style="`background-image: url(${vueMkHeader})`"
+      :style="`background-image: url(${vueFPHeader})`"
       loading="lazy"
     >
       <div class="container">
@@ -62,11 +62,12 @@ onUnmounted(() => {
               class="text-white pt-3 mt-n5 me-2"
               :style="{ display: 'inline-block ' }"
             >
-              Material Kit 2
+              Citas Doradas
             </h1>
             <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
-              Start the Development With Bootstrap 5 Design System inspired by
-              Material Design.
+              Nuestra plataforma está diseñada especialmente para personas mayores que buscan compañía, 
+              amistad o una nueva oportunidad en el amor. Con un entorno seguro, fácil de usar y adaptado 
+              a tus necesidades, te ayudamos a conectar con personas afines a ti.
             </p>
           </div>
         </div>
@@ -86,7 +87,7 @@ onUnmounted(() => {
         <div class="col-lg-4">
           <FilledInfoCard
             class="p-4"
-            :color="{ text: 'white', background: 'bg-gradient-success' }"
+            :color="{ text: 'white', background: 'bg-gradient-primary' }"
             :icon="{ component: 'flag', color: 'white' }"
             title="Getting Started"
             description="Check the possible ways of working with our product and the necessary files for building your own project."
@@ -101,7 +102,7 @@ onUnmounted(() => {
           <FilledInfoCard
             class="px-lg-1 mt-lg-0 mt-4 p-4"
             height="h-100"
-            :icon="{ component: 'precision_manufacturing', color: 'success' }"
+            :icon="{ component: 'precision_manufacturing', color: 'primary' }"
             title="Plugins"
             description="Get inspiration and have an overview about the plugins that we
                 used to create the Material Kit."
@@ -115,7 +116,7 @@ onUnmounted(() => {
         <div class="col-lg-4">
           <FilledInfoCard
             class="px-lg-1 mt-lg-0 mt-4 p-4"
-            :icon="{ component: 'receipt_long', color: 'success' }"
+            :icon="{ component: 'receipt_long', color: 'primary' }"
             title="Utility Classes"
             description="Material Kit is giving you a lot of pre-made elements. For those
                 who want flexibility, we included many utility classes."
@@ -160,7 +161,7 @@ onUnmounted(() => {
 
                 <a
                   href="https://www.creative-tim.com/product/vue-material-kit"
-                  class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4"
+                  class="btn btn-sm mb-0 bg-gradient-primary px-5 py-3 mt-4"
                   >Download Now</a
                 >
               </div>

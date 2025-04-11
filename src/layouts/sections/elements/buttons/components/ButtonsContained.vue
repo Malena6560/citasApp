@@ -29,10 +29,10 @@ import MaterialButton from "@/components/MaterialButton.vue";
 
           <MaterialButton
             variant="contained"
-            color="success"
+            color="primary"
             class="w-auto me-2"
           >
-            Success
+            primary
           </MaterialButton>
 
           <MaterialButton

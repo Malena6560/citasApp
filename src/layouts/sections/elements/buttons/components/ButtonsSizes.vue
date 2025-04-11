@@ -9,15 +9,15 @@ import MaterialButton from "@/components/MaterialButton.vue";
         <div class="col-12 mx-auto">
           <MaterialButton
             variant="gradient"
-            color="success"
+            color="primary"
             size="sm"
             class="me-2"
             >Small</MaterialButton
           >
-          <MaterialButton variant="gradient" color="success" class="w-auto me-2"
+          <MaterialButton variant="gradient" color="primary" class="w-auto me-2"
             >Default</MaterialButton
           >
-          <MaterialButton variant="gradient" color="success" size="lg"
+          <MaterialButton variant="gradient" color="primary" size="lg"
             >Large</MaterialButton
           >
         </div>

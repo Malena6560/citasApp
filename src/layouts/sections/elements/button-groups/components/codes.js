@@ -8,9 +8,9 @@ import MaterialButton from "@/components/MaterialButton.vue";
       <div class="row justify-space-between text-center py-2">
         <div class="col-6 mx-auto">
           <div class="btn-group" role="group" aria-label="Basic example">
-            <MaterialButton variant="contained" color="success">Left</MaterialButton>
-            <MaterialButton variant="contained" color="success">Middle</MaterialButton>
-            <MaterialButton variant="contained" color="success">Right</MaterialButton>
+            <MaterialButton variant="contained" color="primary">Left</MaterialButton>
+            <MaterialButton variant="contained" color="primary">Middle</MaterialButton>
+            <MaterialButton variant="contained" color="primary">Right</MaterialButton>
           </div>
         </div>
       </div>
@@ -102,37 +102,37 @@ import MaterialButton from "@/components/MaterialButton.vue";
       <div class="row text-start py-2">
         <div class="col-6 mx-auto">
           <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Left
             </MaterialButton>
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Middle
             </MaterialButton>
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Right
             </MaterialButton>
           </div>
 
           <div class="btn-group" role="group" aria-label="Basic example">
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Left
             </MaterialButton>
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Middle
             </MaterialButton>
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Right
             </MaterialButton>
           </div>
 
           <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Left
             </MaterialButton>
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Middle
             </MaterialButton>
-            <MaterialButton variant="contained" color="success">
+            <MaterialButton variant="contained" color="primary">
               Right
             </MaterialButton>
           </div>

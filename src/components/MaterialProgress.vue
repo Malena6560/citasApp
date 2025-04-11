@@ -20,7 +20,7 @@ defineProps({
         "dark",
       ].includes(color);
     },
-    default: "success",
+    default: "primary",
   },
   value: {
     type: Number,

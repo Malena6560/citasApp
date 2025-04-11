@@ -84,7 +84,7 @@ import MaterialInput from "@/components/MaterialInput.vue";
 </template>
 `;
 
-export const inputSuccessCode = `<script setup>
+export const inputprimaryCode = `<script setup>
 //Vue Material Kit 2 components
 import MaterialInput from "@/components/MaterialInput.vue";
 </script>

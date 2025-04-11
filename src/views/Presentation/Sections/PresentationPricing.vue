@@ -3,7 +3,7 @@ import SimplePricingCard from "@/examples/cards/pricingCards/SimplePricingCard.v
 </script>
 <template>
   <section class="py-sm-7" id="pricing-soft-ui">
-    <div class="bg-gradient-success position-relative mx-n3 overflow-hidden">
+    <div class="bg-gradient-primary position-relative mx-n3 overflow-hidden">
       <img
         src="@/assets/img/shapes/pattern-lines.svg"
         alt="pattern-lines"

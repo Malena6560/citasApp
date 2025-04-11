@@ -80,7 +80,7 @@ defineProps({
                     <td class="align-middle text-center text-sm">
                       <span
                         class="badge badge-sm"
-                        :class="status ? 'badge-success' : 'badge-secondary'"
+                        :class="status ? 'badge-primary' : 'badge-secondary'"
                         >{{ status ? "Online" : "Offline" }}</span
                       >
                     </td>

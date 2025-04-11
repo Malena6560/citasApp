@@ -10,7 +10,7 @@ import InputStatic from "./components/InputStatic.vue";
 import InputDynamic from "./components/InputDynamic.vue";
 import inputOutlined from "./components/InputOutlined.vue";
 import InputIcon from "./components/InputIcon.vue";
-import InputSuccess from "./components/InputSuccess.vue";
+import Inputprimary from "./components/InputSuccess.vue";
 import InputError from "./components/InputError.vue";
 import InputDisabled from "./components/InputDisabled.vue";
 
@@ -19,7 +19,7 @@ import {
   inputStaticCode,
   inputOutlinedCode,
   inputDynamicCode,
-  inputSuccessCode,
+  inputprimaryCode,
   inputIconCode,
   inputErrorCode,
   inputDisabledCode,
@@ -56,8 +56,8 @@ onMounted(() => {
       <InputIcon />
     </View>
 
-    <View title="Input success" :code="inputSuccessCode" id="input-success">
-      <InputSuccess />
+    <View title="Input primary" :code="inputprimaryCode" id="input-primary">
+      <Inputprimary />
     </View>
 
     <View title="Input error" :code="inputErrorCode" id="input-error">

@@ -18,7 +18,7 @@ defineProps({
     route: String,
     label: String,
     default: () => ({
-      color: "bg-gradient-success",
+      color: "bg-gradient-primary",
       label: "Find Out More",
     }),
   },

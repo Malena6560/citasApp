@@ -19,8 +19,8 @@ import MaterialButton from "@/components/MaterialButton.vue";
           <MaterialButton variant="gradient" color="info" class="w-auto me-2"
             >Info</MaterialButton
           >
-          <MaterialButton variant="gradient" color="success" class="w-auto me-2"
-            >Success</MaterialButton
+          <MaterialButton variant="gradient" color="primary" class="w-auto me-2"
+            >primary</MaterialButton
           >
           <MaterialButton variant="gradient" color="warning" class="w-auto me-2"
             >Warning</MaterialButton

@@ -41,7 +41,7 @@ onMounted(() => {
                   <MaterialButton
                     class="text-nowrap mb-0"
                     variant="outline"
-                    color="success"
+                    color="primary"
                     size="sm"
                     >Follow</MaterialButton
                   >
@@ -68,7 +68,7 @@ onMounted(() => {
                 path that leaves you more equanimous.
                 <br /><a
                   href="javascript:;"
-                  class="text-success icon-move-right"
+                  class="text-primary icon-move-right"
                   >More about me
                   <i class="fas fa-arrow-right text-sm ms-1"></i>
                 </a>

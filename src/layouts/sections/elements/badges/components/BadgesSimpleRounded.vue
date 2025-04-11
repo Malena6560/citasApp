@@ -13,7 +13,7 @@ import MaterialBadge from "@/components/MaterialBadge.vue";
             Secondary
           </MaterialBadge>
 
-          <MaterialBadge color="success" rounded> Success </MaterialBadge>
+          <MaterialBadge color="primary" rounded> primary </MaterialBadge>
 
           <MaterialBadge color="danger" rounded class="mx-1">
             Danger

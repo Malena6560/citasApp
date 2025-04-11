@@ -355,7 +355,7 @@ $link-color: $primary !default;
 $link-decoration: none !default;
 $link-hover-color: $link-color !default;
 $link-hover-decoration: none !default;
-// Darken percentage for links with `.text-*` class (e.g. `.text-success`)
+// Darken percentage for links with `.text-*` class (e.g. `.text-primary`)
 $emphasized-link-hover-darken-percentage: 15% !default;
 
 $stretched-link-pseudo-element: after !default;
@@ -975,13 +975,13 @@ $input-background-size: 0 100%, 100% 100%;
 $input-background-size-focus: 100% 100%, 100% 100%;
 $input-background-image: linear-gradient(
     0deg,
-    $success 2px,
+    $primary 2px,
     rgba(156, 39, 176, 0) 0
   ),
   linear-gradient(0deg, #d2d2d2 1px, hsla(0, 0%, 82%, 0) 0);
 $input-background-image-valid: linear-gradient(
     0deg,
-    $success 2px,
+    $primary 2px,
     rgba(156, 39, 176, 0) 0
   ),
   linear-gradient(0deg, #d2d2d2 1px, hsla(0, 0%, 82%, 0) 0);
@@ -993,7 +993,7 @@ $input-background-image-invalid: linear-gradient(
   linear-gradient(0deg, #d2d2d2 1px, hsla(0, 0%, 82%, 0) 0);
 $input-background-image-disabled: linear-gradient(
     0deg,
-    $success 2px,
+    $primary 2px,
     rgba(156, 39, 176, 0) 0
   ),
   linear-gradient(0deg, $gray-200 1px, hsla(0, 0%, 82%, 0) 0);

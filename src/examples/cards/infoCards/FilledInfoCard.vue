@@ -8,7 +8,7 @@ defineProps({
           "primary",
           "secondary",
           "info",
-          "success",
+          "primary",
           "warning",
           "error",
           "light",
@@ -70,7 +70,7 @@ defineProps({
       <a
         :href="action.route"
         class="icon-move-right"
-        :class="`text-${action.label.color ?? 'success'}`"
+        :class="`text-${action.label.color ?? 'primary'}`"
       >
         {{ action.label.text }}
         <i class="fas fa-arrow-right text-sm ms-1"></i>

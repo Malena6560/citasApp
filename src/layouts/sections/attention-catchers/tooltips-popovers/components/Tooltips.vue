@@ -21,7 +21,7 @@ onMounted(() => {
       <div>
         <MaterialButton
           variant="gradient"
-          color="success"
+          color="primary"
           data-bs-toggle="tooltip"
           data-bs-placement="top"
           title="Tooltip on top"
@@ -32,7 +32,7 @@ onMounted(() => {
         <MaterialButton
           class="mx-2"
           variant="gradient"
-          color="success"
+          color="primary"
           data-bs-toggle="tooltip"
           data-bs-placement="right"
           title="Tooltip on right"
@@ -42,7 +42,7 @@ onMounted(() => {
 
         <MaterialButton
           variant="gradient"
-          color="success"
+          color="primary"
           data-bs-toggle="tooltip"
           data-bs-placement="bottom"
           title="Tooltip on bottom"
@@ -53,7 +53,7 @@ onMounted(() => {
         <MaterialButton
           class="ms-2"
           variant="gradient"
-          color="success"
+          color="primary"
           data-bs-toggle="tooltip"
           data-bs-placement="left"
           title="Tooltip on left"

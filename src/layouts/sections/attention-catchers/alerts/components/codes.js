@@ -5,8 +5,8 @@ import MaterialAlert from "@/components/MaterialAlert.vue";
 <template>
   <div class="container py-5">
     <div class="row">
-      <MaterialAlert color="success" fontWeight="bold"
-        >A simple success alert—check it out!</MaterialAlert
+      <MaterialAlert color="primary" fontWeight="bold"
+        >A simple primary alert—check it out!</MaterialAlert
       >
       <MaterialAlert color="primary" fontWeight="bold"
         >A simple primary alert—check it out!</MaterialAlert

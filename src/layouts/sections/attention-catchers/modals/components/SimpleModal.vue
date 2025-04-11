@@ -9,7 +9,7 @@ import MaterialButton from "@/components/MaterialButton.vue";
         <!-- Button trigger modal -->
         <MaterialButton
           variant="gradient"
-          color="success"
+          color="primary"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
         >
@@ -56,7 +56,7 @@ import MaterialButton from "@/components/MaterialButton.vue";
                 >
                   Close
                 </MaterialButton>
-                <MaterialButton variant="gradient" color="success" class="mb-0">
+                <MaterialButton variant="gradient" color="primary" class="mb-0">
                   Save changes
                 </MaterialButton>
               </div>

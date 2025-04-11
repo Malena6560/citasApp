@@ -9,7 +9,7 @@ import MaterialButton from "@/components/MaterialButton.vue";
         <div class="col-12 mx-auto">
           <MaterialButton
             variant="gradient"
-            color="success"
+            color="primary"
             size="sm"
             class="btn-icon"
           >
@@ -21,7 +21,7 @@ import MaterialButton from "@/components/MaterialButton.vue";
 
           <MaterialButton
             variant="gradient"
-            color="success"
+            color="primary"
             class="btn-icon mx-2"
           >
             <div class="d-flex align-items-center">
@@ -32,7 +32,7 @@ import MaterialButton from "@/components/MaterialButton.vue";
 
           <MaterialButton
             variant="gradient"
-            color="success"
+            color="primary"
             size="lg"
             class="btn-icon"
           >
