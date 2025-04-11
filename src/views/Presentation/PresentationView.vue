@@ -5,7 +5,6 @@ import { onMounted, onUnmounted } from "vue";
 import NavbarDefault from "../..//examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 //import Header from "../../examples/Header.vue";
-import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
 
 //Vue Material Kit 2 components
 //import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
@@ -20,7 +19,8 @@ import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
 import PresentationInformation from "./Sections/PresentationInformation.vue";
 
 //images
-import vueFPHeader from "@/assets/img/FondoPrincipal.jpg";
+import vueFPHeader from "@/assets/img/fondo1.png";
+import wavesWhite from "@/assets/img/waves-white.svg";
 
 //hooks
 const body = document.getElementsByTagName("body")[0];
@@ -127,7 +127,7 @@ onUnmounted(() => {
     <div
       class="container-fluid mt-sm-5 border-radius-xl"
       :style="{
-        background: 'linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25))'
+        background: 'linear-gradient(195deg, rgb(252, 86, 139), rgb(100, 37, 107))'
       }"
     >
       <div
@@ -137,15 +137,12 @@ onUnmounted(() => {
         }"
         loading="lazy"
       >
-        <span class="mask bg-gradient-dark"></span>
+        <span class="mask bg-gradient-primary"></span>
         <div class="container">
           <div class="row">
             <div class="d-flex justify-content-center p-5">
               <div class="col-lg-8 ms-lg-5 text-center">
-                <h3 class="text-white">
-                  Do you love this awesome UI Kit from Vuejs & Bootstrap?
-                </h3>
-                <p class="text-white text-md">
+                <p class="text-white">
                   El amor y la amistad no tienen edad, y en Citas Doradas lo sabemos. 
                   Por eso hemos creado un lugar donde puedas conocer personas afines a ti, 
                   conversar sin presiones y disfrutar de nuevas experiencias. <br />Únete a nuestra comunidad 
@@ -157,31 +154,6 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
-
-    <div class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
-            <MaterialSocialButton
-              component="twitter"
-              color="twitter"
-              label="Tweet"
-            />
-            <MaterialSocialButton
-              component="facebook-square"
-              color="facebook"
-              label="Share"
-            />
-            <MaterialSocialButton
-              route=""
-              component="pinterest"
-              color="pinterest"
-              label="Pin it"
-            />
-          </div>
-        </div>
-      </div>
-    </div> 
   </div>
   <DefaultFooter />
 </template>

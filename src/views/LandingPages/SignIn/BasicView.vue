@@ -22,8 +22,9 @@ onMounted(() => {
     <div
       class="page-header align-items-start min-vh-100"
       :style="{
-  backgroundImage: 'url(/fondo.jpg)'
-}"
+        backgroundImage:
+          'url(https://png.pngtree.com/thumb_back/fh260/background/20230614/pngtree-people-holding-cell-phone-on-red-background-with-hearts-in-the-image_2890982.jpg)'
+      }"
       loading="lazy"
     >
       <span class="mask bg-gradient-dark opacity-6"></span>
@@ -40,64 +41,47 @@ onMounted(() => {
                   <h4
                     class="text-white font-weight-bolder text-center mt-2 mb-0"
                   >
-                    Iniciar Sesion
+                    Sign in
                   </h4>
-                  <div class="row mt-3">
-                    <div class="col-2 text-center ms-auto">
-                      <a class="btn btn-link px-3" href="javascript:;">
-                        <i class="fa fa-facebook text-white text-lg"></i>
-                      </a>
-                    </div>
-                    <div class="col-2 text-center px-1">
-                      <a class="btn btn-link px-3" href="javascript:;">
-                        <i class="fa fa-github text-white text-lg"></i>
-                      </a>
-                    </div>
-                    <div class="col-2 text-center me-auto">
-                      <a class="btn btn-link px-3" href="javascript:;">
-                        <i class="fa fa-google text-white text-lg"></i>
-                      </a>
-                    </div>
-                  </div>
                 </div>
               </div>
               <div class="card-body">
                 <form role="form" class="text-start">
                   <MaterialInput
-                    id="Email"
+                    id="email"
                     class="input-group-outline my-3"
-                    :label="{ text: 'Correo Electronico', class: 'form-label' }"
+                    :label="{ text: 'Email', class: 'form-label' }"
                     type="email"
                   />
                   <MaterialInput
                     id="password"
                     class="input-group-outline mb-3"
-                    :label="{ text: 'Contraseña', class: 'form-label' }"
+                    :label="{ text: 'Password', class: 'form-label' }"
                     type="password"
                   />
                   <MaterialSwitch
                     class="d-flex align-items-center mb-3"
-                    id="Remember me"
+                    id="rememberMe"
                     labelClass="mb-0 ms-3"
                     checked
-                    >Recordar </MaterialSwitch
+                    >Remember me</MaterialSwitch
                   >
 
                   <div class="text-center">
                     <MaterialButton
                       class="my-4 mb-2"
                       variant="gradient"
-                      color="primary"  
+                      color="primary"
                       fullWidth
-                      >Inicia la sesion</MaterialButton
+                      >Sign in</MaterialButton
                     >
                   </div>
                   <p class="mt-4 text-sm text-center">
-                    No tienes cuenta?
+                    Don't have an account?
                     <a
                       href="#"
-                      class="text-primary text-gradient font-weight-bold"  
-                      >Registrate</a
+                      class="text-primary text-gradient font-weight-bold"
+                      >Sign up</a
                     >
                   </p>
                 </form>
@@ -106,65 +90,6 @@ onMounted(() => {
           </div>
         </div>
       </div>
-      <footer class="footer position-absolute bottom-2 py-2 w-100">
-        <div class="container">
-          <div class="row align-items-center justify-content-lg-between">
-            <div class="col-12 col-md-6 my-auto">
-              <div
-                class="copyright text-center text-sm text-white text-lg-start"
-              >
-                © {{ new Date().getFullYear() }}, made with
-                <i class="fa fa-heart" aria-hidden="true"></i> by
-                <a
-                  href="https://www.creative-tim.com"
-                  class="font-weight-bold text-white"
-                  target="_blank"
-                  >Creative Tim</a
-                >
-                for a better web.
-              </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <ul
-                class="nav nav-footer justify-content-center justify-content-lg-end"
-              >
-                <li class="nav-item">
-                  <a
-                    href="https://www.creative-tim.com"
-                    class="nav-link text-white"
-                    target="_blank"
-                    >Creative Tim</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    href="https://www.creative-tim.com/presentation"
-                    class="nav-link text-white"
-                    target="_blank"
-                    >About Us</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    href="https://www.creative-tim.com/blog"
-                    class="nav-link text-white"
-                    target="_blank"
-                    >Blog</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    href="https://www.creative-tim.com/license"
-                    class="nav-link pe-0 text-white"
-                    target="_blank"
-                    >License</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   </Header>
 </template>
