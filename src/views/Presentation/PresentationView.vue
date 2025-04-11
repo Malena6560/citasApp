@@ -21,13 +21,6 @@ import PresentationInformation from "./Sections/PresentationInformation.vue";
 
 //images
 import vueFPHeader from "@/assets/img/FondoPrincipal.jpg";
-// import wavesWhite from "@/assets/img/waves-white.svg";
-// import logoBootstrap from "@/assets/img/logos/bootstrap5.jpg";
-// import logoTailwind from "@/assets/img/logos/icon-tailwind.jpg";
-// import logoVue from "@/assets/img/logos/vue.jpg";
-// import logoAngular from "@/assets/img/logos/angular.jpg";
-// import logoReact from "@/assets/img/logos/react.jpg";
-// import logoSketch from "@/assets/img/logos/sketch.jpg";
 
 //hooks
 const body = document.getElementsByTagName("body")[0];
@@ -77,7 +70,7 @@ onUnmounted(() => {
 
    <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
     <PresentationCounter />
-    <PresentationInformation /> Aqui se encuentran las tarjetas
+    <PresentationInformation />
     <PresentationExample :data="data" />
     <PresentationPages />
     <BuiltByDevelopers /> 
@@ -153,17 +146,11 @@ onUnmounted(() => {
                   Do you love this awesome UI Kit from Vuejs & Bootstrap?
                 </h3>
                 <p class="text-white text-md">
-                  Cause if you do, it can be yours for FREE. Hit the button
-                  below to navigate to Creative Tim where you can <br />
-                  find the Design System in HTML. Start a new project or give an
-                  old Bootstrap project a new look!
-                </p>
-
-                <a
-                  href="https://www.creative-tim.com/product/vue-material-kit"
-                  class="btn btn-sm mb-0 bg-gradient-primary px-5 py-3 mt-4"
-                  >Download Now</a
-                >
+                  El amor y la amistad no tienen edad, y en Citas Doradas lo sabemos. 
+                  Por eso hemos creado un lugar donde puedas conocer personas afines a ti, 
+                  conversar sin presiones y disfrutar de nuevas experiencias. <br />Únete a nuestra comunidad 
+                  y descubre lo maravilloso que es compartir momentos con alguien especial.
+                 </p>
               </div>
             </div>
           </div>
@@ -171,114 +158,16 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="d-flex flex-column w-100 text-center p-5 mb-8">
-          <h3>Available on these technologies</h3>
-          <div class="d-flex justify-content-center mt-3 flex-wrap">
-            <a
-              href="https://www.creative-tim.com/product/material-kit"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Bootstrap 5 - Most popular front-end component library"
-            >
-              <img
-                :src="logoBootstrap"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-            <a
-              class="opacity-5 ms-3"
-              href="#"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Coming Soon"
-            >
-              <img
-                :src="logoTailwind"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-            <a
-              href="https://www.creative-tim.com/product/vue-material-kit-pro"
-              class="mx-3"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Vue.js - Is a Progressive JavaScript Framework"
-            >
-              <img
-                :src="logoVue"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-            <a
-              class="opacity-5"
-              href="#"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Coming Soon"
-            >
-              <img
-                :src="logoAngular"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-            <a
-              href="https://www.creative-tim.com/product/material-kit-react-pro"
-              class="mx-3"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="React – A JavaScript library for building user interfaces"
-            >
-              <img
-                :src="logoReact"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-            <a
-              class="opacity-5"
-              href="#"
-              data-bs-toggle="tooltip"
-              data-bs-placement="bottom"
-              title="Coming Soon"
-            >
-              <img
-                :src="logoSketch"
-                alt="title"
-                loading="lazy"
-                :style="{ height: '90px' }"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="py-5">
       <div class="container">
         <div class="row">
-          <div class="col-lg-5 ms-auto">
-            <h4 class="mb-1">Thank you for your support!</h4>
-            <p class="lead mb-0">We deliver the best web products</p>
-          </div>
           <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
             <MaterialSocialButton
-              route="https://twitter.com/intent/tweet?text=Check%20Material%20Design%20System%20made%20by%20%40CreativeTim%20%23webdesign%20%23designsystem%20%23bootstrap5&url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-design-system-pro"
               component="twitter"
               color="twitter"
               label="Tweet"
             />
             <MaterialSocialButton
-              route="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-design-system-pro"
               component="facebook-square"
               color="facebook"
               label="Share"

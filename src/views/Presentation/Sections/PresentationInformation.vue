@@ -3,7 +3,8 @@ import RotatingCard from "../../../examples/cards/rotatingCards/RotatingCard.vue
 import RotatingCardFront from "../../../examples/cards/rotatingCards/RotatingCardFront.vue";
 import RotatingCardBack from "../../../examples/cards/rotatingCards/RotatingCardBack.vue";
 import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.vue";
-import vueImgCard from "@/assets/img/FondoPrincipal.jpg";
+import vueImgCard from "@/assets/img/cardFondo.jpg";
+import vueImgCard2 from "@/assets/img/cardFondo2.jpg";
 </script>
 <template>
   <section class="my-5 py-5">
@@ -15,54 +16,26 @@ import vueImgCard from "@/assets/img/FondoPrincipal.jpg";
             <RotatingCardFront
              :style="`background-image: url(${vueImgCard})`"
               icon="touch_app"
-              title="Feel the <br /> Material Kit"
-              description="All the Bootstrap components that you need in a development have been
-        re-design with the new look."
+              title="No te rindas! </br> Tu futuro espera"
+              description="Charla, comparte, y deja que la vida te sorprenda con nuevas amistades o un gran amor."
             />
 
             <RotatingCardBack
-             :style="`background-image: url(${vueImgCard})`"
-              title="Discover More"
-              description="You will save a lot of time going from prototyping to full-functional
-                code because all elements are implemented."
-              :action="[
-                {
-                  route: './/sections/page-sections/hero-sections.html',
-                  label: 'Start with Headers',
-                },
-              ]"
+             :style="`background-image: url(${vueImgCard2})`"
+              title="Descubre Mas!"
+              description="El amor y la amistad no tienen edad, solo necesitan una oportunidad."
             />
           </RotatingCard>
         </div>
         <div class="col-lg-6 ms-auto">
           <div class="row justify-content-start">
             <DefaultInfoCard
-              icon="content_copy"
-              title="Full Documentation"
-              description="Built by developers for developers. Check the foundation and
-                  you will find everything inside our documentation."
+              title="El amor que esperas"
+              description="Regístrate gratis y da el primer paso hacia nuevas experiencias y emociones."
             />
             <DefaultInfoCard
-              icon="flip_to_front"
-              title="Bootstrap 5 Ready"
-              description="The world’s most popular front-end open source toolkit,
-                  featuring Sass variables and mixins."
-            />
-          </div>
-          <div class="row justify-content-start mt-5">
-            <DefaultInfoCard
-              class="mt-3"
-              icon="price_change"
-              title="Save Time & Money"
-              description="Creating your design from scratch with dedicated designers can
-                be very expensive. Start with our Design System."
-            />
-            <DefaultInfoCard
-              class="mt-3"
-              icon="devices"
-              title="Fully Responsive"
-              description="Regardless of the screen size, the website content will
-                  naturally fit the given resolution."
+              title="La chispa no se apaga…"
+              description="¡solo se enciende con más estilo!"
             />
           </div>
         </div>
