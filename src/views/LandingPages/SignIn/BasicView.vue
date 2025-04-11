@@ -22,9 +22,8 @@ onMounted(() => {
     <div
       class="page-header align-items-start min-vh-100"
       :style="{
-        backgroundImage:
-          'url(https://png.pngtree.com/thumb_back/fh260/background/20230614/pngtree-people-holding-cell-phone-on-red-background-with-hearts-in-the-image_2890982.jpg)'
-      }"
+  backgroundImage: 'url(/fondo.jpg)'
+}"
       loading="lazy"
     >
       <span class="mask bg-gradient-dark opacity-6"></span>
@@ -41,7 +40,7 @@ onMounted(() => {
                   <h4
                     class="text-white font-weight-bolder text-center mt-2 mb-0"
                   >
-                    Sign in
+                    Iniciar Sesion
                   </h4>
                   <div class="row mt-3">
                     <div class="col-2 text-center ms-auto">
@@ -65,40 +64,40 @@ onMounted(() => {
               <div class="card-body">
                 <form role="form" class="text-start">
                   <MaterialInput
-                    id="email"
+                    id="Email"
                     class="input-group-outline my-3"
-                    :label="{ text: 'Email', class: 'form-label' }"
+                    :label="{ text: 'Correo Electronico', class: 'form-label' }"
                     type="email"
                   />
                   <MaterialInput
                     id="password"
                     class="input-group-outline mb-3"
-                    :label="{ text: 'Password', class: 'form-label' }"
+                    :label="{ text: 'Contraseña', class: 'form-label' }"
                     type="password"
                   />
                   <MaterialSwitch
                     class="d-flex align-items-center mb-3"
-                    id="rememberMe"
+                    id="Remember me"
                     labelClass="mb-0 ms-3"
                     checked
-                    >Remember me</MaterialSwitch
+                    >Recordar </MaterialSwitch
                   >
 
                   <div class="text-center">
                     <MaterialButton
                       class="my-4 mb-2"
                       variant="gradient"
-                      color="primary"
+                      color="primary"  
                       fullWidth
-                      >Sign in</MaterialButton
+                      >Inicia la sesion</MaterialButton
                     >
                   </div>
                   <p class="mt-4 text-sm text-center">
-                    Don't have an account?
+                    No tienes cuenta?
                     <a
                       href="#"
-                      class="text-primary text-gradient font-weight-bold"
-                      >Sign up</a
+                      class="text-primary text-gradient font-weight-bold"  
+                      >Registrate</a
                     >
                   </p>
                 </form>

@@ -10,7 +10,7 @@ import InputStatic from "./components/InputStatic.vue";
 import InputDynamic from "./components/InputDynamic.vue";
 import inputOutlined from "./components/InputOutlined.vue";
 import InputIcon from "./components/InputIcon.vue";
-import Inputprimary from "./components/Inputsuccess.vue";
+import Inputprimary from "./components/InputSuccess.vue";
 import InputError from "./components/InputError.vue";
 import InputDisabled from "./components/InputDisabled.vue";
 

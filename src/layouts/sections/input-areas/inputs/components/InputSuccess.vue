@@ -7,7 +7,7 @@ import MaterialInput from "@/components/MaterialInput.vue";
     <div class="container">
       <div class="row justify-space-between py-2">
         <div class="col-lg-4 mx-auto">
-          <MaterialInput type="text" placeholder="primary" primary />
+          <MaterialInput type="text" placeholder="success" success />
         </div>
       </div>
     </div>

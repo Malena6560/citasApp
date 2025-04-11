@@ -1,123 +1,88 @@
 <script setup>
-import { onMounted } from "vue";
+import { onMounted, ref } from "vue";
 
-//example components
+// example components
 import DefaultNavbar from "@/examples/navbars/NavbarDefault.vue";
-import DefaultFooter from "@/examples/footers/FooterDefault.vue";
+import Header from "@/examples/Header.vue";
 
-//image
-import image from "@/assets/img/illustrations/illustration-signin.jpg";
-
-//material components
-import MaterialInput from "@/components/MaterialInput.vue";
-import MaterialTextArea from "@/components/MaterialTextArea.vue";
+//Vue Material Kit 2 components
 import MaterialButton from "@/components/MaterialButton.vue";
 
 // material-input
 import setMaterialInput from "@/assets/js/material-input";
+
 onMounted(() => {
   setMaterialInput();
 });
+
+const compatibleProfile = ref({
+  name: "María Gómez",
+  age: 68,
+  image: "/maria.jpg", // asegúrate de tener esta imagen en la carpeta public
+  interests: ["Paseos al atardecer", "Lectura", "Jardinería", "Música clásica"],
+});
 </script>
+
 <template>
-  <div class="container position-sticky z-index-sticky top-0">
-    <div class="row">
-      <div class="col-12">
-        <DefaultNavbar
-          :sticky="true"
-          :action="{
-            route: 'https://www.creative-tim.com/product/vue-material-kit-pro',
-            color: 'bg-gradient-primary',
-            label: 'Buy Now',
-          }"
-        />
-      </div>
-    </div>
-  </div>
-  <section>
-    <div class="page-header min-vh-100">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 start-0 text-center justify-content-center flex-column"
-          >
-            <div
-              class="position-relative h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center"
-              :style="{
-                backgroundImage: `url(${image})`,
-                backgroundSize: 'cover',
-              }"
-              loading="lazy"
-            ></div>
-          </div>
-          <div
-            class="mt-8 col-xl-5 col-lg-6 col-md-7 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-5"
-          >
-            <div
-              class="card d-flex blur justify-content-center shadow-lg my-sm-0 my-sm-6 mt-8 mb-5"
-            >
-              <div
-                class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent"
-              >
-                <div
-                  class="bg-gradient-primary shadow-primary border-radius-lg p-3"
-                >
-                  <h3 class="text-white text-primary mb-0">Contact us</h3>
-                </div>
+  <DefaultNavbar transparent />
+  <Header>
+    <div
+      class="page-header align-items-start min-vh-100"
+      :style="{ backgroundImage: 'url(/fondo.jpg)' }"
+      loading="lazy"
+    >
+      <span class="mask bg-gradient-primary-6"></span>
+      <div class="container my-auto">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-8 col-12">
+            <div class="card z-index-0 fadeIn3 fadeInBottom text-center">
+              <div class="card-header bg-gradient-info text-white py-3">
+                <h4 class="mb-0 text-white">Perfil Compatible</h4>
               </div>
               <div class="card-body">
-                <p class="pb-3">
-                  For further questions, including partnership opportunities,
-                  please email hello@creative-tim.com or contact using our
-                  contact form.
-                </p>
-                <form id="contact-form" method="post" autocomplete="off">
-                  <div class="card-body p-0 my-3">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <MaterialInput
-                          class="input-group-static mb-4"
-                          type="text"
-                          label="Full Name"
-                          placeholder="Full Name"
-                        />
-                      </div>
-                      <div class="col-md-6 ps-md-2">
-                        <MaterialInput
-                          class="input-group-static mb-4"
-                          type="email"
-                          label="Email"
-                          placeholder="hello@creative-tim.com"
-                        />
-                      </div>
-                    </div>
-                    <div class="form-group mb-0 mt-md-0 mt-4">
-                      <MaterialTextArea
-                        id="message"
-                        class="input-group-static mb-4"
-                        :rows="6"
-                        placeholder="Describe your problem in at least 250 characters"
-                        >How can we help you?</MaterialTextArea
-                      >
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12 text-center">
-                        <MaterialButton
-                          variant="gradient"
-                          color="primary"
-                          class="mt-3 mb-0"
-                          >Send Message</MaterialButton
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </form>
+                <img
+                  :src="img6"
+                  alt="Foto de perfil"
+                  class="rounded-circle shadow"
+                  style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 1rem;"
+                />
+                <h5 class="font-weight-bold mb-1">{{ compatibleProfile.name }}</h5>
+                <p class="text-secondary mb-3">{{ compatibleProfile.age }} años</p>
+                <h6 class="text-info">Intereses en común:</h6>
+                <ul class="list-unstyled">
+                  <li v-for="(interest, i) in compatibleProfile.interests" :key="i">
+                    🌿 {{ interest }}
+                  </li>
+                </ul>
+                <MaterialButton color="primary" class="mt-3">Conectar</MaterialButton>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <footer class="footer position-absolute bottom-2 py-2 w-100">
+        <div class="container">
+          <div class="row align-items-center justify-content-lg-between">
+            <div class="col-12 col-md-6 my-auto">
+              <div class="copyright text-center text-sm text-white text-lg-start">
+                © {{ new Date().getFullYear() }}, hecho con
+                <i class="fa fa-heart" aria-hidden="true"></i> para corazones maduros 💖
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white">Privacidad</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white">Términos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-  </section>
-  <DefaultFooter />
+  </Header>
 </template>
